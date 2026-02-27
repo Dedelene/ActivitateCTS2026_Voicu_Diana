@@ -7,8 +7,8 @@ import java.util.Scanner;
 
 public abstract class AplicantReader {
 
-    abstract List<Aplicant> readAplicanti(String file) throws FileNotFoundException;
-    protected Aplicant readAplicant(Scanner input, Aplicant aplicant){
+    public abstract List<Aplicant> readAplicanti(String file) throws FileNotFoundException;
+    public Aplicant readAplicant(Scanner input, Aplicant aplicant){
         String nume = input.next();
         String prenume = (input.next()).toString();
         int varsta = Integer.valueOf(input.nextInt());

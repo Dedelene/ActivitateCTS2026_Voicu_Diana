@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class AngajatiReader implements AplicantReader{
+public class AngajatiReader extends AplicantReader{
 
     @Override
     public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
