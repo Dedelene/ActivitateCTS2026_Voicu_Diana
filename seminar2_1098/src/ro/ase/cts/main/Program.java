@@ -11,12 +11,16 @@ import ro.ase.cts.clase.readere.AplicantReader;
 public class Program {
 
 	public static void main(String[] args) {
+		Angajat.setValoareFinantareElev(50);
 		List<Aplicant> listaAngajati;
 		try {
-			AplicantReader angajatiReader = new AngajatiReader();
-			listaAngajati = angajatiReader.readAplicanti("angajati.txt");
-			for(Aplicant angajat:listaAngajati)
+			AplicantReader angajatiReader = new AngajatiReader("angajati.txt");
+			listaAngajati = angajatiReader.readAplicanti();
+			for(Aplicant angajat:listaAngajati){
 				System.out.println(angajat.toString());
+				angajat.afisazaFinantare();
+				angajat.afiseazaStatut();
+			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
