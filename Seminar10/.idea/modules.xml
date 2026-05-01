@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Composite/Composite.iml" filepath="$PROJECT_DIR$/Composite/Composite.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Decorator/Decorator.iml" filepath="$PROJECT_DIR$/Decorator/Decorator.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Seminar10.iml" filepath="$PROJECT_DIR$/Seminar10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Seminar10CTS.iml" filepath="$PROJECT_DIR$/Seminar10CTS.iml" />
     </modules>
   </component>
 </project>
