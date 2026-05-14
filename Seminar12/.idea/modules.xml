@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Seminar12.iml" filepath="$PROJECT_DIR$/Seminar12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TestareUnitara/TestareUnitara.iml" filepath="$PROJECT_DIR$/TestareUnitara/TestareUnitara.iml" />
+    </modules>
+  </component>
+</project>
